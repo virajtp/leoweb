@@ -5,11 +5,9 @@ import * as api from '../api/index.js';
 export const getBlogPosts = () => async (dispatch) => {
   try {
     const { data } = await api.fetchBlogPosts();
-    console.log("dddddddd");
 
     dispatch({ type: FETCH_ALL_BLOGS, payload: data });
   } catch (error) {
-    console.log("dddddddd");
     console.log(error.message);
   }
 };
@@ -29,10 +27,8 @@ export const getBlogPosts = () => async (dispatch) => {
 export const createBlogPost = (post) => async (dispatch) => {
   try {
     const { data } = await api.createBlogPost(post);
-    console.log("hiiiiiiiiiiiiiiiiiii");
     dispatch({ type: CREATE, payload: data });
   } catch (error) {
-    console.log("huuuu");
     console.log(error.message);
   }
 };

@@ -24,7 +24,7 @@ const ExcoDir = () => {
     return (
         <div className="exco">
 
-            <h1 style={{ fontSize: '45px' }}>Executive Board</h1>
+            <h1 style={{ fontSize: '45px' }}>Executive Board 2021/22</h1>
             {/* <div id="president">
                 <img src={president} height='280px' style={{ borderRadius: '50%', border: '10px solid black' }} />
                 <h2>President</h2>
@@ -64,15 +64,7 @@ const ExcoDir = () => {
                     <img src={vp} height='240px' style={{ borderRadius: '50%', border: '10px solid black' }} />
                     <h3>Leo Sanka Samarasekara</h3>
                     <SocialMediaIcons fb = "https://www.facebook.com/sanka.samarasekara.1" linkedIn = "https://www.linkedin.com/in/sanka-prabath-samarasekara-449b7a20b/"/>
-                 {/* <SocialMediaIconsReact
-                borderColor="rgba(0,0,0,0.25)"
-                icon="twitter"
-                iconColor="rgba(255,255,255,1)"
-                backgroundColor="rgba(26,166,233,1)"
-                url="https://some-website.com/my-social-media-url" size="48" /> */}
-                
-                {/* <SocialMediaIconsReact borderColor="rgba(0,0,0,0.25)" icon="twitter" iconColor="rgba(255,255,255,1)" backgroundColor="rgba(26,166,233,1)" url="https://some-website.com/my-social-media-url" size="48" /> */}
-                </Grid>
+             </Grid>
             </Grid>
             <br/><br/>
             <Grid container justify="center" alignItems="center" spacing={2}>

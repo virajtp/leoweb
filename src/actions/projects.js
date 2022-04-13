@@ -16,10 +16,8 @@ export const getProjects = () => async (dispatch) => {
 export const createProject = (post) => async (dispatch) => {
   try {
     const { data } = await api.createProject(post);
-    console.log("hiiiiiiiiiiiiiiiiiii");
     dispatch({ type: CREATE, payload: data });
   } catch (error) {
-    console.log("huuuu");
     console.log(error.message);
   }
 };

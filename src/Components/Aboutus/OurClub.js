@@ -1,11 +1,12 @@
 
 import { colors, Grid, Row } from '@material-ui/core';
 import logo from '../images/logoOnly.png';
-
+import GalleryView from '../Gallery_View/GalleryView';
 const OurClub = () => {
     return (
         // style={{textAlign:'center', paddingLeft:'10%', paddingLeft:'10%'}}
         <div className="ourclub" style={{ fontSize: "20px" }}>
+           {/* <GalleryView/> */}
             <Grid container justify="center" alignItems="center" spacing={1}>
 
                 <Grid item xs={12} sm={8} md={8} style={{paddingBottom:"30px"}}>

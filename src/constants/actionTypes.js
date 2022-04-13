@@ -3,4 +3,5 @@ export const UPDATE = 'UPDATE';
 export const DELETE = 'DELETE';
 export const FETCH_ALL = 'FETCH_ALL';
 export const FETCH_ALL_BLOGS = 'FETCH_ALL_BLOGS';
+export const FETCH_ALL_PAGES = 'FETCH_ALL_PAGES';
 export const LIKE = 'LIKE';
