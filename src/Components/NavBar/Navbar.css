@@ -24,6 +24,8 @@
   background-color: white;
   flex-direction: row;
   padding-bottom: 20px;
+  font-size: small;
+  font-variant-caps: all-petite-caps;
 }
 
 .Navbar .leftside{

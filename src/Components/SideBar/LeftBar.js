@@ -74,8 +74,10 @@ const LeftBar = () => {
             </div>
             <br/>
             {modalOpen && <Modal setOpenModal={setModalOpen} name={name} image={img} caption={caption} />}
-
+            <Link to="/Login/" ><button>Login</button></Link>
         </div>
+
+        
     );
 }
 

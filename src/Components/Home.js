@@ -7,19 +7,13 @@ import Typewriter from 'typewriter-effect';
 import AwardImages from './Aboutus/award_img copy';
 import { SocialMediaIconsReact } from 'social-media-icons-react';
 
-var app = document.getElementById('app');
 
-// var typewriter = new Typewriter(app, {
-//   loop: true,
-//   delay: 75,
-// });
+var app = document.getElementById('app');
 
 const Home = () => {
   return (
     <div className="home">
       <section id="homeHead">
-
-
         <h1 >
           {/* <Typewriter
           options={{
