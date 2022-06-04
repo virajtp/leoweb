@@ -1,46 +1,45 @@
 import about from './images/cover.jpg';
 import logo from './images/leologo.png';
 import { Fade, Slide } from "react-awesome-reveal";
-import { colors } from '@material-ui/core';
-import { text } from '@fortawesome/fontawesome-svg-core';
-import Typewriter from 'typewriter-effect';
-import AwardImages from './Aboutus/award_img copy';
-import { SocialMediaIconsReact } from 'social-media-icons-react';
-
+import { Grid } from '@material-ui/core';
+import LeftBar from './SideBar/LeftBar';
+import HomeImages from './images/homePageImgs';
+import React, { Component } from "react";
 
 var app = document.getElementById('app');
 
-const Home = () => {
+// const Home = () => {
+  class Home extends Component {
+    render() {
   return (
     <div className="home">
       <section id="homeHead">
         <h1 >
-          {/* <Typewriter
-          options={{
-            strings: ['LEO CLUB OF UNIVERSITY OF SRI JAYEWARDENEPURA', 'Aspiring To Serve'],
-            autoStart: true,
-            loop: true,
-          }}
-        /> */}
-        {/* <AwardImages/> */}
           LEO CLUB OF DISTRICT 306 C2
         </h1>
         <h3>UNIVERSITY OF SRI JAYEWARDENEPURA</h3>
+      <HomeImages/>
       </section>
+      <Fade bottom duration={2000}>
+          <div className="row section-head">
+            <div className="two columns header-col">
+            </div>
+            {/* <img src={about} width="100%" style={{ position: 'relative' }} /> */}
+            {/* <h2>jyhghj</h2> */}
+            
+          </div>
+        </Fade>
+       <Grid container alignItems="stretch" spacing={1} >
+            
+            <Grid item xs={12} sm={12} md={9}>
+      
       {/* <h1 style={{color: "lightblue"}}>UNIVERSITY OF SRI JAYEWARDENEPURA</h1> */}
 
 
 
       <br />
       <section className="hii">
-        <Fade bottom duration={2000}>
-          <div className="row section-head">
-            <div className="two columns header-col">
-            </div>
-            <img src={about} width="100%" style={{ position: 'relative' }} />
-            {/* <h2>jyhghj</h2> */}
-          </div>
-        </Fade>
+        
         <div className="homecontent">
           <Fade duration={1000}>
             <div className="aboutLeo">
@@ -81,7 +80,7 @@ const Home = () => {
                      experiences they gain.</h4>
                     <br/>
                      <h1>LIONS CLUB INTERNATIONAL</h1>
-                  <h4>The International Association of Lions Clubs, also known as Lions Club International, 
+                  <h4 className="homes">The International Association of Lions Clubs, also known as Lions Club International, 
                     is a non-political service organization founded by Melvin Jones in 1917 in Chicago, 
                     Illinois. It is one of the largest service club organizations in the world, 
                     working on a variety of humanitarian initiatives all around the world. 
@@ -95,7 +94,7 @@ const Home = () => {
                      as a team.</h4>
                      <br/>
                      <h1>LEO CLUB OF DISTRICT 306 C2 UNIVERSITY OF SRI JAYEWARDENEPURA</h1>
-                  <h4>Leo Club of District 306 C2 University of Sri is a university-based omega Leo club 
+                  <h4 className="homes">Leo Club of District 306 C2 University of Sri Jayewardenepura is a university-based omega Leo club 
                     that belongs to the Leo District C2 of Leo Multiple 306 Sri Lanka. This young club's journey 
                     began on December 11th, 2019. J'pura C2 Leos have completed numerous projects over the years 
                     and have been acknowledged by the district on various occasions for their contributions to 
@@ -108,10 +107,16 @@ const Home = () => {
           </Fade>
         </div>
       </section>
+       </Grid>
+            <Grid item xs={12} sm={12} md={3} container justify="space-around" alignItems="stretch">
+              <div><LeftBar /></div>
+            </Grid>
+          </Grid>
     </div>
 
 
   );
+              }
 }
 
 export default Home;

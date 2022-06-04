@@ -3,7 +3,7 @@ import 'react-tabs/style/react-tabs.css';
 import MyPhoto from "./images/userImage.png";
 import { colors, Grid, Row } from '@material-ui/core';
 import OurClub from './Aboutus/OurClub';
-import ExcoDir from './Aboutus/Exco_Dir';
+import ExcoDir from './Aboutus/CurrentOfficers';
 import Awards from './Aboutus/Awards';
 
 export default () => (

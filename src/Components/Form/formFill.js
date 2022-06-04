@@ -2,6 +2,7 @@ import React, { useState, Component } from 'react';
 
 import ProjectForm from './ProjectForm';
 import BlogForm from './BlogForm';
+// import PageForm from './anecdoteForm';
 
 const FormFill = () => {
   const [favorite, setFavorite] = React.useState(false);

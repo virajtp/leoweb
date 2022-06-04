@@ -2,10 +2,15 @@
 import { colors, Grid, Row } from '@material-ui/core';
 import logo from '../images/logoOnly.png';
 import GalleryView from '../Gallery_View/GalleryView';
+import Testdb from './src/test';
+import ExcoDir from './CurrentOfficers';
+import HomeImages from '../images/homePageImgs';
 const OurClub = () => {
     return (
         // style={{textAlign:'center', paddingLeft:'10%', paddingLeft:'10%'}}
         <div className="ourclub" style={{ fontSize: "20px" }}>
+            {/* <ExcoDir/> */}
+        
            {/* <GalleryView/> */}
             <Grid container justify="center" alignItems="center" spacing={1}>
 

@@ -1,0 +1,23 @@
+{
+    "exco": [
+      {
+        "title": "President",
+        "Name": "Randunu",
+        "author": "mario",
+        "id": 1
+      },
+      {
+        "title": "Secretary",
+        "Name": "Rajini",
+        "author": "mario",
+        "id": 1
+      },
+      {
+        "title": "Vice President",
+        "Name": "Sanka",
+        "author": "mario",
+        "id": 1
+      }
+
+    ]
+  }

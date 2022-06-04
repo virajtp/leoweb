@@ -26,25 +26,25 @@ const GalleryView = (p) => {
           <Carousel
             data={data}
             time={5000}
-            width="550px"
-            // height="500px"
+            width={p.width}
+            height={p.heights}
             captionStyle={captionStyle}
             radius="10px"
-            slideNumber={true}
+            slideNumber={false}
             slideNumberStyle={slideNumberStyle}
             captionPosition="bottom"
             automatic={true}
-            dots={true}
+            dots= {p.dots}
             pauseIconColor="white"
             pauseIconSize="40px"
             slideBackgroundColor="darkgrey"
             slideImageFit="cover"
-            thumbnails={true}
+            thumbnails={p.thumbnails}
             thumbnailWidth="50px"
             showNavBtn={true}
             style={{
               textAlign: "center",
-              maxWidth: "650px",
+              maxWidth: "100%",
               margin: "40px auto",
             }}
           />

@@ -1,0 +1,172 @@
+{
+  "officers": {
+    "exco":  [
+      {
+        "title": "President",
+        "Name": "Randunu Rupasinghe",
+        "photo":"./ExcoDir/Randunu.jpg",
+        "fb": "https://www.facebook.com/randunu.rupasinghe",
+        "linkedin": "https://www.linkedin.com/in/randunu-rupasinghe-140059235/",
+        "id": 1
+      },
+      {
+        "title": "Secretary",
+        "Name": "Rajinee Mahaushadee",
+        "photo":"./ExcoDir/Rajinee.png",
+        "fb": "https://www.facebook.com/rajinee98",
+        "linkedin": "https://www.linkedin.com/in/rajinee/",
+        "id": 2
+
+
+      },
+      {
+        "title": "Vice President",
+        "Name": "Sanka Samarasekara",
+        "photo": "./ExcoDir/Sanka.jpg",
+        "fb": "https://www.facebook.com/sanka.samarasekara.1",
+        "linkedin": "https://www.linkedin.com/in/sanka-prabath-samarasekara-449b7a20b/",
+        "id": 3
+      },
+      {
+        "title": "Treasurer",
+        "Name": "Nethmi Sarada",
+        "photo":"./ExcoDir/Nethmi Sarada.jpg",
+        "fb": "https://www.facebook.com/randunu.rupasinghe",
+        "linkedin": "https://www.linkedin.com/in/randunu-rupasinghe-140059235/",
+        "id": 1
+      },
+      {
+        "title": "Asst. Secretary",
+        "Name": "Melissa Handapangoda",
+        "photo":"./ExcoDir/Melissa Handapangoda.png",
+        "fb": "https://www.facebook.com/melissa.handapangoda",
+        "linkedin": "https://www.linkedin.com/in/melissa-handapangoda-530503200/",
+        "id": 2
+
+
+      },
+      {
+        "title": "Asst. Treasurer",
+        "Name": "Sanduni Maheshika",
+        "photo": "./ExcoDir/Sanduni Maheshika.jpg",
+        "fb": "https://www.facebook.com/sanka.samarasekara.1",
+        "linkedin": "https://www.linkedin.com/in/sanka-prabath-samarasekara-449b7a20b/",
+        "id": 3
+      }
+    ],
+    "dirrect":  [
+      {
+        "section": "Marketing",
+        "Name": "Sameera Arachchige",
+        "photo":"./ExcoDir/Sameera.jpeg",
+        "fb": "https://www.facebook.com/profile.php?id=100013149160690",
+        "linkedin": "https://www.linkedin.com/in/sameera-arachchige-8b91aa1b5/",
+        "id": 1
+      },
+      {
+        "section": "Marketing",
+        "Name": "Bhanuka Pabasara",
+        "photo":"./ExcoDir/Bhanuka Pabasara.jpg",
+        "fb": "https://www.facebook.com/profile.php?id=100009522411641",
+        "linkedin": "https://www.linkedin.com/in/bhanuka-pabasara/",
+        "id": 2
+      },
+      {
+        "section": "Media",
+        "Name": "Viraj Tharindu",
+        "photo": "./ExcoDir/Viraj Tharindu.jpg",
+        "fb": "https://www.facebook.com/viraj.tharindu.140",
+        "linkedin": "https://www.linkedin.com/in/viraj-tharindu-21bb681b3/",
+        "id": 3
+      },
+      {
+        "section": "Media",
+        "Name": "Dumindu Sasanka",
+        "photo": "./ExcoDir/Dumindu Sasanka.jpg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      },
+      {
+        "section": "Editorial",
+        "Name": "Ridma Sirimanna",
+        "photo": "./ExcoDir/Ridma Sirimanna.jpeg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      },
+      {
+        "section": "Editorial",
+        "Name": "Kalpani Perera",
+        "photo": "./ExcoDir/Kalpani Perera.jpg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      },
+      {
+        "section": "Finance",
+        "Name": "Chathuri Buddhima",
+        "photo": "./ExcoDir/Chathuri Buddhima.jpg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      },
+      {
+        "section": "Finance",
+        "Name": "Shakini Withanage",
+        "photo": "./ExcoDir/Shakini Withanage.jpg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      },
+      {
+        "section": "Club Services",
+        "Name": "Poojani Bhagya",
+        "photo": "./ExcoDir/Poojani Bhagya.jpg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      },
+      {
+        "section": "Club Services",
+        "Name": "Oshini Kulasekara",
+        "photo": "./ExcoDir/Oshini Kulasekara.jpeg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      },
+      {
+        "section": "Public Relations",
+        "Name": "Sasini Attanayake",
+        "photo": "./ExcoDir/Sasini Attanayake.jpg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      },
+      {
+        "section": "Public Relations",
+        "Name": "Randi Ushara",
+        "photo": "./ExcoDir/Randi Ushara.jpg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      },
+      {
+        "section": "Member Relations",
+        "Name": "Asitha Dilshan",
+        "photo": "./ExcoDir/Asitha Dilshan.jpg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      },
+      {
+        "section": "Member Relations",
+        "Name": "Krishani Chamodika",
+        "photo": "./ExcoDir/Krishani Chamodika.jpg",
+        "fb": "",
+        "linkedin": "",
+        "id": 3
+      }
+    ]
+  }
+}

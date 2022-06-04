@@ -47,7 +47,7 @@ const Awards = () => {
         <div className="awards" >
             <p>
                 <ul  style={{ textAlign: "left", fontSize:"25px" }}>
-                    <li>Annual District Conference of Leo District 306 C2 - Invenzo’20
+                    <li> <div className='listTitle'>Annual District Conference of Leo District 306 C2 - Invenzo’20</div>
                         <ul>
                             <li>Most Outstanding New Leo Club of the year</li>
                             <li>1st Runner Up	- Most Outstanding University Club</li>
@@ -55,10 +55,10 @@ const Awards = () => {
                         </ul>
                     </li>
                     {/* <GalleryView/> */}
-                    <GalleryView images = {images}/>
+                    <GalleryView images = {images} width={"650px"}  dots={true} thumbnails={true} height={"1%"}/>
                     {/* <AwardImages/> */}
                     <br />
-                    <li>Crystal Awards – Lions Awards for Leos 2019/20
+                    <li><div className='listTitle'>Crystal Awards – Lions Awards for Leos 2019/20</div>
                         <ul>
                             <li>Winner		- Net Growth in Membership</li>
                             <li>2nd Runner Up	- International Observations</li>
@@ -69,7 +69,7 @@ const Awards = () => {
                         </ul>
                     </li>
                     <br />
-                    <li>Lions Club International President’s Appreciation (Leo Poornima Dilrukshi)
+                    <li><div className='listTitle'>Lions Club International President’s Appreciation (Leo Poornima Dilrukshi) </div>
                         <ul>
                             <li>Winner		 - Net Growth in Membership (Omega Category)</li>
                             <li>Winner		 - Leo who Sponsored Highest Number of Members

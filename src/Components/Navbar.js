@@ -54,7 +54,7 @@ function Navbar() {
             <ul className='nav-menu'>
 
               <li className='nav-item'>
-                <Link to="/leousj/" onClick={() => { handleActive('home') }} style={{ color: window.location.pathname === "/leousj/" || window.location.pathname === "/" ? '#040640' : null }}>Home</Link>
+                <Link to="/" onClick={() => { handleActive('home') }} style={{ color: window.location.pathname === "/leousj/" || window.location.pathname === "/" ? '#040640' : null }}>Home</Link>
               </li>
               <li className='nav-item'>
                 <Link to="/Projects" onClick={() => { handleActive('project') }} style={{ color: window.location.pathname === '/Projects' ? '#040640' : null }} >Projects</Link>

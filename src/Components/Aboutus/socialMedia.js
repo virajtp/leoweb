@@ -1,7 +1,3 @@
-import { SocialMediaIconsReact } from 'social-media-icons-react';
-
-import SocialMediaButtons from 'react-social-media-buttons';
-
 import { SocialIcon } from 'react-social-icons';
 
 const SocialMediaIcons = (props) => {

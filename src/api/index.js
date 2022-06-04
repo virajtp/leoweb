@@ -1,9 +1,11 @@
 import axios from 'axios';
 
-// const projectsURL = 'http://localhost:5000/projects';
-// const blogsURL = 'http://localhost:5000/blogs';
-const projectsURL = 'https://lcusj.herokuapp.com/projects';
-const blogsURL = 'https://lcusj.herokuapp.com/blogs';
+const projectsURL = 'http://localhost:5000/projects';
+const blogsURL = 'http://localhost:5000/blogs';
+const pagesURL = 'http://localhost:5000/pages';
+// const projectsURL = 'https://lcusj.herokuapp.com/projects';
+// const blogsURL = 'https://lcusj.herokuapp.com/blogs';
+// const pagesURL = 'https://lcusj.herokuapp.com/pages';
 
 
 export const fetchProjects = () => axios.get(projectsURL);
@@ -17,3 +19,6 @@ export const createBlogPost = (newBlogPost) => axios.post(blogsURL, newBlogPost)
 export const likeBlogPost = (id) => axios.patch(`${blogsURL}/${id}/likeBlogPost`);
 export const updateBlogPost = (id, updatedBlogPost) => axios.patch(`${blogsURL}/${id}`, updatedBlogPost);
 export const deleteBlogPost = (id) => axios.delete(`${blogsURL}/${id}`);
+
+export const fetchPages = () => axios.get(pagesURL);
+export const createPages = (newPages) => axios.post(pagesURL, newPages);

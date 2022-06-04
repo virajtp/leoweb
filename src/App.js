@@ -19,7 +19,9 @@ import BlogForm from "./Components/Form/BlogForm";
 import BlogsView from "./Components/Projects_Blogs/BlogsView";
 import Line from "./Components/NavBar/Line";
 import Login from "./Components/Login/login";
-import useToken from './useToken';
+import AnecdoteForm from "./Components/Form/AnecdoteForm";
+import APage from "./Components/Projects_Blogs/Anecdote";
+import AnecdoteView from "./Components/Projects_Blogs/AnecdoteView";
 
 function App() {
 
@@ -48,9 +50,9 @@ function App() {
                 height: 0.5,
                 borderColor: '#000000'
             }} /> */}
-          <Grid container alignItems="stretch" spacing={1} >
+          {/* <Grid container alignItems="stretch" spacing={1} >
             
-            <Grid item xs={12} sm={12} md={9}>
+            <Grid item xs={12} sm={12} md={9}> */}
               {/* <div><LeftBar /></div> */}
               {/* <div className="content"> */}
 
@@ -60,6 +62,9 @@ function App() {
                 </Route>
                 <Route path="/leousj/">
                   <Home />
+                </Route>
+                <Route path="/AneView">
+                    <AnecdoteView setCurrentId={setCurrentId} />
                 </Route>
                 <Route path="/Projects">
                   <Grow in>
@@ -104,12 +109,17 @@ function App() {
                     <BlogForm currentId={currentId} setCurrentId={setCurrentId} />
                   </Grow>
                 </Route>
+                <Route path="/AnecdoteForm">
+                  <Grow in>
+                    <AnecdoteForm currentId={currentId} setCurrentId={setCurrentId} />
+                  </Grow>
+                </Route>
               </Switch>
-            </Grid>
-            <Grid item xs={12} sm={12} md={3} container justify="space-around" alignItems="stretch">
+            {/* </Grid> */}
+            {/* <Grid item xs={12} sm={12} md={3} container justify="space-around" alignItems="stretch">
               <div><LeftBar /></div>
-            </Grid>
-          </Grid>
+            </Grid> */}
+          {/* </Grid> */}
           </div>
         </div>
         {/* <Footer data={this.state.resumeData.main} /> */}

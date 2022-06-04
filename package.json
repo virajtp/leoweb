@@ -45,6 +45,7 @@
     "react-social-media-buttons": "^1.0.8",
     "react-swipeable": "^6.2.0",
     "react-tabs": "^3.2.3",
+    "react-toast-notifications": "^2.5.1",
     "reactstrap": "^8.10.0",
     "redux-thunk": "^2.3.0",
     "renderhook": "^0.1.0",
