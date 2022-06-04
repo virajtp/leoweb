@@ -1,7 +1,5 @@
 import React from "react";
-import { Grid } from '@material-ui/core';
-// import SocialMediaButtons from 'react-social-media-buttons';
-// import { Container, Row, Col } from 'reactstrap';
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import {
   faYoutube,
